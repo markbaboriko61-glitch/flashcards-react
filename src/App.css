@@ -1,0 +1,88 @@
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    background: linear-gradient(#75c0f2, #6a82fb);
+    margin: 0;
+    padding: 30px 20px;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #6a82fb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+button:hover { background-color: #5a72eb; }
+button:disabled { background-color: #ccc; cursor: not-allowed; }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+    font-weight: normal; /* Сделал нежирным как просил */
+}
+
+.card {
+    border: 2px solid #000;
+    padding: 30px;
+    text-align: center;
+    margin: 20px 0;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    font-size: 22px;
+    font-weight: bold;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+}
